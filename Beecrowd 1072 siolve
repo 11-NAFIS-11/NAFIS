@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int i, N,a,sum=0,count=0;
+    scanf("%d",&N);
+    for(i=0;i<N;i++){
+        scanf("%d",&a);
+        if(a>=10&&a<=20){
+            sum=sum+1;
+        }else{
+            count=count+1;
+        }
+    }
+     printf("%d in\n",sum);
+     printf("%d out\n",count);
+     return 0;
+
+}
