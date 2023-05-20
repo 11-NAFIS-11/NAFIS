@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <body>
+            <form>
+                <div>
+                <lable for="Name">Name</lable>
+                <input type="text" name="Name" id="Name">
+                </div><br>
+                <div>
+                    <label for="Email">Email</label>
+                    <input type="Email" name="Email" id="Email">
+                </div><br>
+                <div>
+                    <label for="Password">Password</label>
+                    <input type="Password" name="Password"
+                </div><br>
+                <div>
+                    <label for="DOB">Date Of Birth</label>
+                    <input type="Date" name="Date" id="Date">
+                </div><br>   
+                <div>
+                    <label for="photo">Choose your photo</label>
+                    <input type="file" name="photo" id="photo">
+                </div><br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="gender" value="male">Male
+                    <input type="radio" name="gender" id="gender" value="female">Female
+                </div><br>
+                <div>
+                    <label for="Religion">Religion</label>
+                    <input type="checkbox" name="Religion" id="Religion" value="Islam">Islam
+                    <input type="checkbox" name="Religion" id="Religion" value="Hindu">Hindu
+                </div><br>
+                <div>
+                    <label for="department">Department:</label>
+                    <select name="department">
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="NFE">NFE</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea cols="50" rows="20"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </div>
+                
+
+            </form>
+        </body>
+    </html>
+   
